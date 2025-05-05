@@ -255,6 +255,13 @@ footer {
 	position: relative;
 }
 
+.previewbox img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
 .DesPrev{
 	margin: 0px;
 	padding-top: 10px;
