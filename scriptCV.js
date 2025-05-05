@@ -24,3 +24,12 @@ const parentContainer = document.querySelector('.readMoreContainer')
 
         current.textContent = current.textContent.includes('More about me') ? "Less about me." : "More about me..."
     })
+
+const dropdownToggles = document.querySelectorAll('.dropdownToggle');
+
+dropdownToggles.forEach(toggle => {
+	toggle.addEventListener('click', () => {
+		const content = toggle.nextElementSibling;
+		content.style.display = content.style.display === 'block' ? 'none' : 'block';
+	});
+});
