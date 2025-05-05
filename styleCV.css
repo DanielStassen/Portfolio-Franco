@@ -135,10 +135,10 @@ footer {
 .readMoreText {
 	display: none;
 	margin-bottom: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 10px;
 	font-family: monospace;
 	font-weight: 900;
-	font-size: 1rem; /* Use rem or % instead of fixed size */
+	font-size: 30px; /* Keep desktop size here */
 	line-height: 1.5;
 }
 
@@ -359,4 +359,11 @@ footer {
 	border-radius: 10px;
 	padding: 20px;
 	background-color: #1e1e1e;
+}
+
+@media only screen and (max-width: 600px) {
+	.readMoreText {
+		font-size: 18px; /* Smaller size on mobile */
+		letter-spacing: 2px;
+	}
 }
