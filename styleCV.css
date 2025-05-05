@@ -237,9 +237,7 @@ footer {
 	margin-top: 100px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border: solid;
-	border-bottom: none;
-	border-color: lightgray;
+	border: none;
 }
 
 .projectbox{
