@@ -132,12 +132,14 @@ footer {
 	cursor: pointer;
 }
 
-.readMoreText{
+.readMoreText {
 	display: none;
 	margin-bottom: 20px;
-	letter-spacing: 10px;
+	letter-spacing: 1px;
 	font-family: monospace;
 	font-weight: 900;
+	font-size: 1rem; /* Use rem or % instead of fixed size */
+	line-height: 1.5;
 }
 
 .readMoreText--show{
